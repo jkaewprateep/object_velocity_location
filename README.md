@@ -39,6 +39,11 @@ temp_label_layer_1 = tf.math.argmax( tf.squeeze( temp_label_layer_1 ), axis=0 )
 temp_label_layer_1 = tf.math.argmax( tf.squeeze( temp_label_layer_1 ), axis=1 ).numpy()
 ```
 
+## Files and Directory ##
+1. sample.py : sample code for prove the logic
+2. bandicam 2022-12-17 11-31-54-783.gif : result
+3. README.md : readme file
+
 ## Result image ##
 Label key target with clustering
 
